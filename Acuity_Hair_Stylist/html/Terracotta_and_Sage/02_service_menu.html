@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=2000" />
+<title>Service Menu — Terracotta &amp; Sage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" />
+<style>
+  html, body { margin:0; padding:0; background:#222; }
+  .tbs-page {
+    position: relative;
+    width: 2000px; height: 1000px;
+    margin: 0 auto;
+    background-color: #F2E5D3;
+    background-image: url("../../Terracotta_and_Sage/templates/02_service_menu_notext.png");
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    color: #4A3F3A;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+  }
+  .t {
+    position: absolute;
+    box-sizing: border-box;
+    line-height: 1.2;
+  }
+  .t.center { text-align: center; transform: translateX(-50%); }
+  .ornament {
+    position: absolute; transform: translateX(-50%);
+    width: 240px; height: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ornament::before, .ornament::after {
+    content: ""; flex: 1; height: 1px; background: #C97456;
+  }
+  .ornament .dot {
+    width: 14px; height: 14px; margin: 0 8px;
+    background: #C97456;
+    transform: rotate(45deg);
+  }
+  .btn {
+    position: absolute;
+    background: #C97456;
+    color: #F2E5D3;
+    border-radius: 8px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    letter-spacing: 0.04em;
+  }
+  .card {
+    position: absolute;
+    background: #FAF1E2;
+    border: 2px solid #C97456;
+    border-radius: 14px;
+    box-sizing: border-box;
+  }
+  .rule {
+    position: absolute; height: 1px; background: #E0CCAE;
+  }
+</style>
+</head>
+<body>
+<div class="tbs-page"
+     data-document-role="page"
+     data-theme="Terracotta_and_Sage"
+     data-layout="02_service_menu"
+     data-page-width="2000"
+     data-page-height="1000">
+  <div class="t center" style="left:1000px; top:110px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:56px; font-weight:700; text-align:center; color:#4A3F3A; letter-spacing:0.04em;" data-editable="true">SERVICE MENU</div>
+  <div class="ornament" style="left:1000px; top:193px; color:#C97456;" aria-hidden="true"><span class="dot" style="background:#C97456"></span></div>
+  <div class="t" style="left:200px; top:270px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:400; text-align:left; color:#4A3F3A;" data-editable="true">Signature Cut &amp; Style</div>
+  <div class="t" style="left:1240px; top:274px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:28px; font-weight:400; text-align:left; color:#9CA98F;" data-editable="true">60 min</div>
+  <div class="t" style="left:1480px; top:268px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:700; text-align:left; color:#C97456;" data-editable="true">$95</div>
+  <div class="rule" style="left:200px; top:332px; width:1600px; background:#E0CCAE;"></div>
+  <div class="t" style="left:200px; top:380px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:400; text-align:left; color:#4A3F3A;" data-editable="true">Single Process Color</div>
+  <div class="t" style="left:1240px; top:384px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:28px; font-weight:400; text-align:left; color:#9CA98F;" data-editable="true">90 min</div>
+  <div class="t" style="left:1480px; top:378px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:700; text-align:left; color:#C97456;" data-editable="true">$140</div>
+  <div class="rule" style="left:200px; top:442px; width:1600px; background:#E0CCAE;"></div>
+  <div class="t" style="left:200px; top:490px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:400; text-align:left; color:#4A3F3A;" data-editable="true">Balayage / Highlight</div>
+  <div class="t" style="left:1240px; top:494px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:28px; font-weight:400; text-align:left; color:#9CA98F;" data-editable="true">180 min</div>
+  <div class="t" style="left:1480px; top:488px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:700; text-align:left; color:#C97456;" data-editable="true">$285</div>
+  <div class="rule" style="left:200px; top:552px; width:1600px; background:#E0CCAE;"></div>
+  <div class="t" style="left:200px; top:600px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:400; text-align:left; color:#4A3F3A;" data-editable="true">Blowout &amp; Treatment</div>
+  <div class="t" style="left:1240px; top:604px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:28px; font-weight:400; text-align:left; color:#9CA98F;" data-editable="true">45 min</div>
+  <div class="t" style="left:1480px; top:598px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:700; text-align:left; color:#C97456;" data-editable="true">$65</div>
+  <div class="rule" style="left:200px; top:662px; width:1600px; background:#E0CCAE;"></div>
+  <div class="t" style="left:200px; top:710px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:400; text-align:left; color:#4A3F3A;" data-editable="true">Bridal Trial</div>
+  <div class="t" style="left:1240px; top:714px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:28px; font-weight:400; text-align:left; color:#9CA98F;" data-editable="true">120 min</div>
+  <div class="t" style="left:1480px; top:708px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:36px; font-weight:700; text-align:left; color:#C97456;" data-editable="true">$195</div>
+  <div class="rule" style="left:200px; top:772px; width:1600px; background:#E0CCAE;"></div>
+
+</div>
+</body>
+</html>

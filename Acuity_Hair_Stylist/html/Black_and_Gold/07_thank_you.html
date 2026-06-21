@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=2000" />
+<title>Thank You — Black &amp; Gold</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" />
+<style>
+  html, body { margin:0; padding:0; background:#222; }
+  .tbs-page {
+    position: relative;
+    width: 2000px; height: 1000px;
+    margin: 0 auto;
+    background-color: #0F0F0F;
+    background-image: url("../../Black_and_Gold/templates/07_thank_you_notext.png");
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    color: #F5F1E8;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+  }
+  .t {
+    position: absolute;
+    box-sizing: border-box;
+    line-height: 1.2;
+  }
+  .t.center { text-align: center; transform: translateX(-50%); }
+  .ornament {
+    position: absolute; transform: translateX(-50%);
+    width: 240px; height: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ornament::before, .ornament::after {
+    content: ""; flex: 1; height: 1px; background: #D4AF37;
+  }
+  .ornament .dot {
+    width: 14px; height: 14px; margin: 0 8px;
+    background: #D4AF37;
+    transform: rotate(45deg);
+  }
+  .btn {
+    position: absolute;
+    background: #D4AF37;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    letter-spacing: 0.04em;
+  }
+  .card {
+    position: absolute;
+    background: #1A1A1A;
+    border: 2px solid #D4AF37;
+    border-radius: 14px;
+    box-sizing: border-box;
+  }
+  .rule {
+    position: absolute; height: 1px; background: #3C3320;
+  }
+</style>
+</head>
+<body>
+<div class="tbs-page"
+     data-document-role="page"
+     data-theme="Black_and_Gold"
+     data-layout="07_thank_you"
+     data-page-width="2000"
+     data-page-height="1000">
+  <div class="t center" style="left:1000px; top:220px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:96px; font-weight:400; text-align:center; color:#D4AF37; font-style:italic;" data-editable="true">thank you</div>
+  <div class="t center" style="left:1000px; top:350px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:36px; font-weight:700; text-align:center; color:#F5F1E8; letter-spacing:0.18em;" data-editable="true">FOR YOUR VISIT</div>
+  <div class="ornament" style="left:1000px; top:423px; color:#D4AF37;" aria-hidden="true"><span class="dot" style="background:#D4AF37"></span></div>
+  <div class="t center" style="left:460px; top:490px; font-family:'Playfair Display', 'Times New Roman', Georgia, serif; font-size:28px; font-weight:400; text-align:center; width:1080px; color:#8A8580;" data-editable="true">It was lovely having you in the studio today. We&#x27;d love to see you again — your next appointment can be booked through the link below.</div>
+  <div class="btn" style="left:740px; top:670px; width:520px; height:100px; background:#D4AF37; color:#FFFFFF; font-size:32px;" data-editable="true">BOOK AGAIN</div>
+  <div class="t center" style="left:1000px; top:860px; font-family:'Inter', 'Helvetica Neue', Arial, sans-serif; font-size:22px; font-weight:400; text-align:center; color:#8A8580; letter-spacing:0.18em;" data-editable="true">— ELYSE &amp; CO. —</div>
+
+</div>
+</body>
+</html>
